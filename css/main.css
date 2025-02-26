@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comme:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
 }
@@ -10,8 +10,8 @@
 
 html {
   scroll-behavior: smooth;
-  background: #ffbb5b;
-  color: #000000;
+  background: rgba(16, 28, 35, 1);
+  color: rgba(244, 244, 244, 1);
 }
 
 body {
@@ -315,52 +315,40 @@ a {
 
 .home {
   width: 375px;
-  height: 742px;
-
-  padding: 182px 16px 0px;
+  height: 778px;
+  padding: 246px 16px 0px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/img/home/Home.png");
+  background-image: url("/img/home/Hero.png");
   margin: auto;
 }
 
 .home__container-top {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
 }
 .home-title {
-  font-family: Viga;
-  font-size: 46px;
-  font-weight: 900;
-  line-height: 50.4px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  -webkit-text-stroke: 1px#FFFFFF;
-  color: #482600;
+  width: 189.00003051757812px;
+  height: 104.47661590576172px;
 }
 
 .home-text {
-  font-family: Lora;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 26.4px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-
-  color: #000000;
-  padding: 32px 0;
-  width: 253px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 40px 0;
 }
 .home__google-button_image {
-  width: 200px;
-  height: 60px;
+  width: 189px;
+  height: 78px;
+  gap: 8px;
 }
 .home__google-button_link:hover .home__google-button_image {
-  /* content: url("./image/home/Button-hover.png"); */
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
 }
@@ -368,38 +356,29 @@ a {
 @media screen and (min-width: 1200px) {
   .home {
     width: 1440px;
-    height: 784px;
-    padding: 204px 0px 0px;
-    background-image: url("/img/home/Home\ \(1\).png");
+    height: 871px;
+    padding: 254px 72px 0px;
+    background-image: url("/img/home/Hero\ \(1\).png");
   }
   .home__container-top {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 455px;
   }
   .home-title {
-    font-family: Viga;
-    font-size: 52px;
-    font-weight: 900;
-    line-height: 62.4px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
-    width: 404px;
+    width: 305px;
+    height: 168.59982299804688px;
   }
 
   .home-text {
-    font-family: Lora;
-    font-size: 26px;
-    font-weight: 500;
-    line-height: 31.2px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0%;
     text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    width: 400px;
-    padding: 29px 0;
   }
 }
 .why {
@@ -587,92 +566,78 @@ a {
   }
 }
 .about {
-  padding: 64px 16px 0px;
+  padding: 52px 52px 0px;
   margin: auto;
   width: 375px;
-  height: 574px;
-
+  height: 819px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("/img/about/About\ the\ Game.png");
+  background-image: url("/img/about/Game\ Description.png");
 }
 
 .about-title {
-  font-family: Lora;
-  font-size: 22px;
-  font-weight: 900;
-  line-height: 26.4px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  -webkit-text-stroke: 1px#FFFFFF99;
-  color: #297d17;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0%;
+  color: rgba(244, 244, 244, 1);
 }
 
 .about-text {
-  font-family: Lora;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22.4px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-
-  padding: 69px 0px 0;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  padding: 48px 0px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-.about-text-bold {
-  font-family: Lora;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 25.2px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+.about-title-two {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-image: url("/img/Title.png");
+  width: 335px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 @media screen and (min-width: 1200px) {
+  .about-title-two {
+    width: 540px;
+    height: 68px;
+  }
   .about {
-    padding: 66px 408px 0;
+    padding: 110px 649px 0px 104px;
     margin: auto;
     width: 1440px;
-    height: 493px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    background-image: url("/img/about/About\ the\ Game\ \(1\).png");
+    height: 668px;
+    background-image: url("/img/about/Game\ Description\ \(1\).png");
   }
 
   .about-title {
-    font-family: Lora;
-    font-size: 32px;
-    font-weight: 900;
-    line-height: 38.4px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
   }
 
   .about-text {
-    font-family: Lora;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25.2px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
 
-    padding: 77px 0 0;
-  }
-  .about-text-bold {
-    font-family: Lora;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 30.8px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    padding: 48px 0 0;
   }
 }
 .how {
@@ -1146,44 +1111,52 @@ a {
 }
 .features {
   width: 375px;
+  height: 607px;
   margin: auto;
-  padding: 64px 16px 89px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/img/features/Advantages.png");
 }
 
 .features-list {
-  padding-top: 64px;
-
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  padding-top: 42px;
 }
 .features-item {
-  width: 163px;
-  height: 230px;
-  margin: auto;
+  margin: 0 5px;
 }
 .features-img {
-  margin: 16px auto;
+  width: 335px;
+  height: 193px;
 }
 .features-text-bold {
-  height: 44px;
-
-  font-family: Lora;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21.6px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: rgba(30, 30, 30, 1);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background: rgba(244, 244, 244, 1);
+  box-shadow: 4px 3px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -35px;
+  margin-left: 293px;
 }
 .features-text {
-  font-family: Lora;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 19.2px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  background: linear-gradient(180deg, #0f5f84 0%, #0a1d26 100%);
+  margin-top: 10px;
+  width: 335px;
+  height: 140px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  background: linear-gradient(180deg, #0f5f84 0%, #0a1d26 100%);
 }
 
 @media screen and (min-width: 1200px) {
@@ -1232,67 +1205,54 @@ a {
   }
 }
 .footer {
-  background: linear-gradient(
-    0deg,
-    #297d17 -30.75%,
-    #ffbb5b 100.89%,
-    #cd946f 135.47%
-  );
-
-  color: #ffffff;
-  padding: 58px 16px 49px;
+  background: rgba(16, 28, 35, 1);
+  padding: 40px 0px 32px;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 24px;
 }
 
 .footer-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   align-items: center;
 
-  gap: 4px;
+  gap: 16px;
 }
 .footer-text {
-  font-family: Lora;
-  font-size: 14px;
-  font-weight: 600;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-
+  letter-spacing: 0%;
+  text-align: center;
   text-decoration: none;
-  color: #ffffff;
+  color: rgba(244, 244, 244, 1);
 }
 
 .footer-copyright {
-  font-family: Lora;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 @media screen and (min-width: 1200px) {
   .footer {
-    padding: 48px 199px;
+    padding: 48px 72px;
   }
   .footer-container {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: end;
-
-    align-items: center;
-
-    gap: 160px;
+    align-items: stretch;
+    gap: 30px;
   }
 
   .footer-wrapper {
@@ -1300,74 +1260,62 @@ a {
     flex-direction: row;
     justify-content: end;
     align-items: end;
-
-    gap: 4px;
+    gap: 30px;
   }
   .footer-text {
-    font-family: Lora;
+    font-family: Roboto;
+    font-weight: 500;
     font-size: 16px;
-    font-weight: 600;
     line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    letter-spacing: 0%;
+    text-align: center;
   }
 
   .footer-copyright {
-    font-family: Lora;
-    font-size: 14px;
+    font-family: Roboto;
     font-weight: 500;
-    line-height: 16px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
   }
 }
 .policy-terms-container {
-  padding: 124px 16px 116px;
-  background-color: #fff7eb;
+  padding: 96px 20px 32px;
 }
 .policy-terms-title {
-  font-family: Comme;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 32px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-
-  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0%;
 }
 
 .policy-terms-text {
-  font-family: Lora;
-  font-size: 14px;
+  font-family: Montserrat;
   font-weight: 400;
-  line-height: 16.8px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
 
   padding-top: 20px;
 }
 .policy-terms-texts {
-  font-family: Lora;
-  font-size: 14px;
+  font-family: Roboto;
   font-weight: 400;
-  line-height: 16.8px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0%;
+
   padding-top: 8px;
 }
 .policy-terms-text-one {
-  font-family: Lora;
-  font-size: 14px;
+  font-family: Roboto;
   font-weight: 400;
-  line-height: 16.8px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0%;
+
   padding-top: 20px;
 }
 
@@ -1375,13 +1323,11 @@ a {
   list-style-type: disc;
 
   padding: 20px 0 20px 25px;
-  font-family: Lora;
-  font-size: 14px;
+  font-family: Roboto;
   font-weight: 400;
-  line-height: 16.8px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0%;
 
   display: flex;
   flex-direction: column;
@@ -1391,64 +1337,55 @@ a {
   list-style-type: disc;
 
   padding-left: 25px;
-  font-family: Lora;
-  font-size: 14px;
+  font-family: Roboto;
   font-weight: 400;
-  line-height: 16.8px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0%;
 }
 .email-link {
   color: inherit;
   text-decoration: none;
 }
 .email-link-color {
-  color: #000;
+  color: inherit;
   text-decoration: none;
 }
 @media screen and (min-width: 1200px) {
   .policy-terms-container {
-    padding: 186px 80px 116px;
+    padding: 177px 72px 90px;
   }
   .policy-terms-title {
-    font-family: Comme;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 32px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0%;
   }
 
   .policy-terms-text {
-    font-family: Lora;
-    font-size: 16px;
+    font-family: Montserrat;
     font-weight: 400;
-    line-height: 19.2px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0%;
 
     padding-top: 40px;
   }
   .policy-terms-texts {
-    font-family: Lora;
-    font-size: 16px;
+    font-family: Roboto;
     font-weight: 400;
-    line-height: 19.2px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
   }
   .policy-terms-text-one {
-    font-family: Lora;
-    font-size: 16px;
+    font-family: Roboto;
     font-weight: 400;
-    line-height: 19.2px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+
     padding-top: 30px;
   }
 
@@ -1456,13 +1393,12 @@ a {
     list-style-type: disc;
 
     padding: 20px 0 20px 25px;
-    font-family: Lora;
-    font-size: 16px;
+
+    font-family: Roboto;
     font-weight: 400;
-    line-height: 19.2px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
 
     display: flex;
     flex-direction: column;
@@ -1471,13 +1407,11 @@ a {
   .terms-lists {
     list-style-type: disc;
 
-    font-family: Lora;
-    font-size: 16px;
+    font-family: Roboto;
     font-weight: 400;
-    line-height: 19.2px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
   }
 }
 
